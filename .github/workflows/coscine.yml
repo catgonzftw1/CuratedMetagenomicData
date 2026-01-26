@@ -53,7 +53,7 @@ jobs:
       - name: Build static site and generate navigation tabs
         working-directory: ./coscine-static-site-generator/
         run: |
-          RESOURCE_NAMES=("DhakanDB_2019" "BommanaS_2023" "BackhedF_2015" "ChngKR_2016" "DeFilippisF_2019" "BaruchEN_2021" "ContevilleLC_2019" "FanY_2023" "BritoIL_2016" "BoktorJC_2023" "CosteaPI_2017" "DavidLA_2015" "Bengtsson-PalmeJ_2015" "AverinaOV_2020" "FerrettiP_2018" "AsnicarF_2017" "DavarD_2021" "ChuDM_2017" "BedarfJR_2017" "BaiX_2021" "Castro-NallarE_2015" "AsnicarF_2021" "FengQ_2015" "ChengpingW_2017" "ArtachoA_2021" "BrooksB_2017")
+          RESOURCE_NAMES=("ArtachoA_2021" "AsnicarF_2017" "BackhedF_2015" "BaiX_2021" "BaruchEN_2021" "Bengtsson-PalmeJ_2015" "BoktorJC_2023" "ChengpingW_2017" "ChuDM_2017" "ContevilleLC_2019" "DavidLA_2015" "DeFilippisF_2019" "DhakanDB_2019" "FerrettiP_2018" "HeQ_2017" "HMP_2012" "HMP_2019_ibdmdb" "HMP_2019_t2d" "IaniroG_2022" "IjazUZ_2017" "JacobsonDK_2021" "JieZ_2017" "KarlssonFH_2013" "KaurK_2020" "KosticAD_2015" "LiuW_2016" "LokmerA_2019" "MejiaR_2020" "OsakunorDNM_2020" "PasolliE_2019" "PernigoniN_2021" "WampachL_2018" "YassourM_2018")
           
           # Generate static site for each resource
           for RESOURCE in "${RESOURCE_NAMES[@]}"; do
